@@ -58,4 +58,4 @@ class NoteView():
 def main(page):
     noteview = NoteView(page);
 
-ft.app(target = main, port = 8500, view = ft.AppView.WEB_BROWSER);
+ft.app(main);
